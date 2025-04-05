@@ -1,12 +1,12 @@
 # Arabic-to-SQL
 
 ## Arabic text preprocessing
-1.	Unifying Different Forms of Alef (ا): Arabic contains different forms of the letter Alef, including:
-   <p dir="rtl" align="left">
-                                                                                                                                                             إ ← ا - 
-                                                                                                                                                             أ ← ا -
-                                                                                                                                                             آ ← ا - 
-   </p>
+1. Unifying Different Forms of Alef (ا): Arabic contains different forms of the letter Alef, including:
+
+   - إ → ا  
+   - أ → ا  
+   - آ → ا  
+
 2.	Replacing Final 'ى' with 'ي': The Arabic letter 'ى' (without dots) is replaced with 'ي' to standardize words.
 3.	Replacing 'ة' with 'ه': The character 'ة' (Taa Marbouta) is replaced with 'ه' to avoid ambiguity in text processing.
 4.	Removing Kashida (ـ): Kashida is used in Arabic script for elongation in writing but has no effect on meaning, so it is removed.
