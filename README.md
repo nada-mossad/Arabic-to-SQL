@@ -43,17 +43,17 @@ To prepare the data for training, the preprocessing pipeline involves:
 AraBART is chosen for this task because it is specifically designed for Arabic text generation and transformation. It leverages a transformer-based architecture optimized for Arabic linguistic structures, making it well-suited for tasks such as text summarization, question answering, and SQL generation.
 
 AraBART Architecture:
-  •	AraBART is based on the BART (Bidirectional and Auto-Regressive Transformers) architecture, which consists of an encoder-decoder framework.
-  •	The encoder processes input sequences bidirectionally, capturing complex contextual dependencies.
-  •	The decoder generates output sequences autoregressively, making it effective for text generation tasks.
-  •	The model is pre-trained using denoising objectives, such as text corruption and sentence permutation, which improve its ability to reconstruct meaningful text sequences.
+  -	AraBART is based on the BART (Bidirectional and Auto-Regressive Transformers) architecture, which consists of an encoder-decoder framework.
+  -	The encoder processes input sequences bidirectionally, capturing complex contextual dependencies.
+  -	The decoder generates output sequences autoregressively, making it effective for text generation tasks.
+  -	The model is pre-trained using denoising objectives, such as text corruption and sentence permutation, which improve its ability to reconstruct meaningful text sequences.
 By fine-tuning AraBART for 65 epochs, the model is further specialized for text-to-SQL generation, allowing it to generate structured SQL queries from Arabic natural language input with higher results.
 
 ## Model Evaluation and Results
 The final trained model was evaluated based on loss values and performance metrics:
-  •	Final Training Loss: 0.011000
-  •	Final Validation Loss: 0.447823
+  -	Final Training Loss: 0.011000
+  -	Final Validation Loss: 0.447823
 The model was tested on 20 questions across multiple databases to ensure robustness. The evaluation metrics were:
-  •	Average BLEU Score: 0.8634535319062493
-  •	Exact Match Accuracy: 0.6
-  •	Execution Accuracy: 0.7
+  -	Average BLEU Score: 0.8634535319062493
+  -	Exact Match Accuracy: 0.6
+  -	Execution Accuracy: 0.7
