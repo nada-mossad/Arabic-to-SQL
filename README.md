@@ -2,10 +2,10 @@
 
 ## Arabic text preprocessing
 1.	Unifying Different Forms of Alef (ا): Arabic contains different forms of the letter Alef, including:
-   <p dir="rtl" align="right">
-- إ ← ا  
-- أ ← ا  
-- آ ← ا  
+   <p dir="rtl" align="left">
+- إ ← ا - 
+- أ ← ا -
+- آ ← ا - 
 
 </p>
 2.	Replacing Final 'ى' with 'ي': The Arabic letter 'ى' (without dots) is replaced with 'ي' to standardize words.
