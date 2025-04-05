@@ -53,7 +53,7 @@ By fine-tuning AraBART for 65 epochs, the model is further specialized for text-
 The final trained model was evaluated based on loss values and performance metrics:
   -	Final Training Loss: 0.011000
   -	Final Validation Loss: 0.447823
-  -	
+
 The model was tested on 20 questions across multiple databases to ensure robustness. The evaluation metrics were:
 
   -	Average BLEU Score: 0.8634535319062493
